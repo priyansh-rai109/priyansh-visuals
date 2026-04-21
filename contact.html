@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Priyansh Rai Photography</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Priyansh<span>Photography</span></a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section>
+        <div class="section-header">
+            <h2>Let's Create <span>Together</span></h2>
+            <p>Reach out for collaborations, bookings, or just to say hello.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <!-- FORM START -->
+            <form action="https://formspree.io/f/mvgvalea" method="POST">
+
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Your Email</label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea name="message" rows="6" required></textarea>
+                </div>
+
+                <!-- redirect page -->
+                <input type="hidden" name="_next" value="thankyou.html">
+
+                <button type="submit" class="btn">Transmit Message</button>
+
+            </form>
+            <!-- FORM END -->
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/priyanxh._" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/priyansh-rai-0396a6333" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/priyansh-rai109" target="_blank">GitHub</a>
+        </div>
+
+        <p>&copy; 2026 Priyansh Rai | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

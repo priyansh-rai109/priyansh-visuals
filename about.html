@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Priyansh Rai Photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <div id="loading-screen" class="loading-screen"><div class="loader-ring"></div></div>
+
+    <!-- Navbar -->
+    <nav class="navbar animate-fade-up">
+        <a href="index.html" class="logo">Priyansh<span>Photography</span></a>
+        <div class="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section>
+        <div class="section-header">
+            <h2>The Visionary <span>Behind the Lens</span></h2>
+            <p style="color:var(--text-secondary)">Mobile Photography & Cinematic Composition</p>
+        </div>
+        
+        <div class="bio-content animate-fade-up delay-1 reveal">
+            <div data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" style="display:inline-block; border-radius:50%; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 2rem; transform-style: preserve-3d;">
+                <img src="./img/personal.jpg" alt="Priyansh Rai" style="display: block; width: 250px; height: 250px; border-radius: 50%; object-fit: cover; object-position: top; transform: translateZ(20px);">
+            </div>
+            
+            <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem; color:var(--text-primary)">
+                Photography is my ultimate method of storytelling. I specialize in utilizing mobile technology and sophisticated composition frameworks to capture raw, authentic emotions and build cinematic landscapes out of everyday life.
+            </p>
+            <p style="color:var(--text-secondary)">
+                From the bustling streets to profound portraits, every frame matters.
+            </p>
+
+            <ul class="skills">
+                <li>Mobile Photography mastery</li>
+                <li>Cinematic Grading</li>
+                <li>Visual Composition</li>
+                <li>Portrait Retouching</li>
+                <li>Freelance Creator</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/priyanxh._" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/priyansh-rai-0396a6333" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/priyansh-rai109" target="_blank">GitHub</a>
+        </div>
+        <p>&copy; 2026 Priyansh Rai | Cinematic Photographer | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./js/three-effects.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
